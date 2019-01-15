@@ -6,7 +6,7 @@ function showMovieQuote() {
 
     foreach($myAssArray as $key => $value){
         if($sentInfo == $key) {
-            echo "<b>" . "A quote from the movie " . "'" . $key . "'" . ":" . "</b>" . " '" . $value . "'";
+            echo "<h2>" . "<b>" . "A quote from the movie " . "'" . $key . "'" . ":" . "</h2>" . "</b>" . "<h3>" . " '" . $value . "'" . "</h3>";
         }    
     }
 }
